@@ -1,0 +1,57 @@
+import logo from '@/images/clients/phobia/logomark-dark.svg'
+import imageHero from './hero.jpg'
+import imageJennyWilson from './jenny-wilson.jpg'
+
+export const caseStudy = {
+  client: 'WCC',
+  title: 'Blazor Web Development Solution',
+  description:
+    'Blazor Web Development Solution for WCC',
+  summary: [
+    'Blazor Web Development Solution for WCC',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2022-06',
+  service: 'Blazor Web Development Solution',
+  testimonial: {
+    author: { name: 'Jenny Wilson', role: 'CPO of WCC' },
+    content:
+      'Partnering with eZZySoft Solutions has significantly streamlined our operations. The Blazor solution they provided has become an integral part of how we manage projects and communicate with our clients.',
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Overview
+
+WCC, a prominent goverment firm based in New Zealand, was in need of a modern and scalable web solution to improve their project management, client communication, and service offerings. 
+
+Our team at eZZYSoft Solutions delivered a web platform built using Blazor, a powerful framework that provided seamless integration of interactive client-side functionality. This platform enabled WCC to efficiently manage project timelines, contractor collaboration, and client interactions. 
+
+The Blazor-based solution not only enhanced WCC’s digital presence but also improved their internal workflow by centralizing project data and providing real-time updates on construction activities. With the integration of a robust backend and a user-friendly interface, the platform facilitated better decision-making, optimized resource allocation, and improved overall project efficiency.
+## What we did
+
+<TagList>
+  <TagListItem>.NET Core</TagListItem>
+  <TagListItem>SQL Server</TagListItem>
+  <TagListItem>Blazor</TagListItem>
+  <TagListItem>Blazor Web Platform</TagListItem>
+</TagList>
+
+<Blockquote
+  author={{ name: 'Jenny Wilson', role: 'CPO of WCC' }}
+  image={{ src: imageJennyWilson }}
+>
+Partnering with eZZYSoft Solutions has significantly streamlined our operations. The Blazor solution they provided has become an integral part of how we manage projects and communicate with our clients.
+</Blockquote>
+
+<StatList>
+  <StatListItem value="20%" label="Churn rate" />
+  <StatListItem value="5x" label="Uninstalls" />
+  <StatListItem value="2.3" label="App store rating" />
+  <StatListItem value="8" label="Pending lawsuits" />
+</StatList>

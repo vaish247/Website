@@ -1,0 +1,56 @@
+import logo from '@/images/clients/unseal/logomark-dark.svg'
+import imageHero from './hero.jpg'
+import imageEmilySelman from './emily-selman.jpg'
+
+export const caseStudy = {
+  client: 'TEC',
+  title: 'Blazor Project Management Solution',
+  description:
+    'Blazor Project Management Solution.',
+  summary: ["Blazor Project Management Solution"  ],
+  logo,
+  image: { src: imageHero },
+  date: '2022-10',
+  service: 'Blazor Project Management Solution',
+  testimonial: {
+    author: { name: 'Emily Selman', role: 'COO TEC' },
+    content:
+      'eZZYSoft Solutions provided a tailor-made solution that has transformed how we manage our projects. Their expertise in Blazor and understanding of our industry made a big difference in how smoothly we run our construction sites now.',
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Overview
+
+TEC, a company that required a digital platform to efficiently manage their subcontractors, track equipment usage, and streamline project workflows. 
+
+eZZYSoft Solutions developed a custom-built web application using Blazor, providing TCC with a robust and scalable platform that integrated project management and resource allocation capabilities. The solution allowed real-time tracking of equipment, contractor assignment, and progress updates across multiple job sites. 
+
+With a focus on user experience, the platform delivered by eZZYSoft ensured that the TCC team could monitor, adjust, and optimize project execution, improving transparency and operational efficiency. The solution has become essential to TCC’s daily operations, offering an intuitive interface for the team to collaborate and manage all project phases effectively.
+## What we did
+
+<TagList>
+  <TagListItem> .NET Core</TagListItem>
+  <TagListItem> SQL Server</TagListItem>
+  <TagListItem>Blazor Web Application</TagListItem>
+</TagList>
+
+<Blockquote
+  author={{ name: 'Emily Selman', role: 'COO TEC' }}
+  image={{ src: imageEmilySelman }}
+>
+  Studio did an amazing job building out our core blockchain infrastructure and
+  I’m sure once PlaceboCoin rallies they’ll be able to finish the project.
+
+</Blockquote>
+
+<StatList>
+  <StatListItem value="34%" label="Fewer transactions" />
+  <StatListItem value="10%" label="Slower transactions" />
+  <StatListItem value="1000ms" label="Transaction latency" />
+  <StatListItem value="3" label="Active nodes" />
+</StatList>
